@@ -35,7 +35,8 @@
             android:layout_marginStart="8dp"
             app:layout_constraintEnd_toStartOf="@+id/random_button" android:layout_marginEnd="8dp"
             android:layout_marginRight="8dp"
-            android:background="@color/buttonBackground"/>
+            android:background="@color/buttonBackground"
+            android:onClick="countMe"/>
     <Button
             android:text="Toast"
             android:layout_width="wrap_content"
@@ -48,7 +49,8 @@
             app:layout_constraintStart_toStartOf="parent"
             android:layout_marginLeft="24dp"
             android:layout_marginStart="24dp"
-            android:background="@color/buttonBackground"/>
+            android:background="@color/buttonBackground"
+            android:onClick="toastMe"/>
     <Button
             android:text="Random"
             android:layout_width="wrap_content"
